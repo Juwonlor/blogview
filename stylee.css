@@ -1,7 +1,7 @@
-*(
-    margin: 0,
-    padding: 0;
-)
+*{
+margin: 0;
+ padding: 0;
+}
 body{
     background-color: yellow;
     margin: 5rem;
@@ -49,7 +49,7 @@ button{
     display: flex;
     margin-top: 5rem;
 }
-@media (max-width: 600px) {
+@media (max-width: 600px){
     .content{
         margin: 2%;
          margin-left: 2%;
@@ -62,5 +62,26 @@ button{
     border-bottom-width: 1rem;
     width: 100%;
     }
-}
+    button{
+    margin-top: 15px;
+    background-color: rgb(236, 236, 18);
+    width: 70px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 100;
+    border-color: rgb(236, 236, 18);
     
+}
+.text{
+    font-size: 20px;
+}
+h3{
+    font-size: 22px;
+}
+h1{
+    font-size: 25x;
+}
+.me{
+    display: flex;
+    margin-top: 5px;
+}
